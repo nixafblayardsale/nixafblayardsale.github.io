@@ -11,4 +11,7 @@
 .item {
     border-radius: 4px;
 }
-
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
