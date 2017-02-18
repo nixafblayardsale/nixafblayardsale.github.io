@@ -255,23 +255,26 @@ footer.special{
   right: 5px;
 }
 /*Progress Bar Styles*/
-.progress {
-  height: 35px;
-
-}
-.progress .skill {
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-.progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
+.bar-step {
+    position:absolute;
+    margin-top:-20px;
+	z-index:1;
+    font-size:12px;
 }
 
-.progress-bar {
-  text-align: left;
-  transition-duration: 3s;
+.label-txt {
+    float: left;
+}
+
+.label-line {
+    float: right;
+    background: #000;
+    height:50px;
+	width:1px;
+    margin-left: 5px;
+}
+
+.label-percent {
+    float: right;
+    margin-left: 5px;   
 }
