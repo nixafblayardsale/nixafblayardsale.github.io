@@ -34,14 +34,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .btn-light {
@@ -161,6 +161,10 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.text-vertical-center{
+    color:white;
+}
+
 
 /* About */
 
