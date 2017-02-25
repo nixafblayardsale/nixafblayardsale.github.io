@@ -41,3 +41,20 @@ footer {
 p.lead {
     margin-top: 20px;
 }
+/* Search Bar Styles */
+#searchBar{
+    border: 1px solid black;
+    font-size: 16px; 
+    padding: 10px;
+    outline: none; 
+    width: 250px;
+}
+#searchBtn{
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 10px;
+    background: #f1d829; 
+    font-weight: bold; 
+    cursor:pointer; 
+    outline: none;
+}
