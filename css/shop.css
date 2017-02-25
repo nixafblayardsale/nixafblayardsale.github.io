@@ -54,6 +54,7 @@ p.lead {
     -moz-border-radius-bottom-left: 10px;
      border-top-left-radius: 10px;
      border-bottom-left-radius: 10px;
+     border-right: none;
     
 }
 #searchBtn{
