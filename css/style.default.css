@@ -1112,7 +1112,7 @@ h1 {
     overflow-y: visible;
   }
   .navbar-collapse.right {
-    float: right;
+    float: left;
   }
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
