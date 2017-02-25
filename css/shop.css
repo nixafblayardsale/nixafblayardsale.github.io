@@ -38,3 +38,6 @@ div.body{
 footer {
     margin: 50px 0;
 }
+p.lead {
+    margin-top: 20px;
+}
