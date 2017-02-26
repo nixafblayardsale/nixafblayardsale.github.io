@@ -830,9 +830,6 @@ r: both;
   color: #999999;
   font-size: 12px;
 }
-#content #blog-post .comment .reply {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-}
 #content #blog-post .comment.last {
   margin-bottom: 0;
 }
@@ -1059,7 +1056,6 @@ r: both;
 }
 /* navbar */
 .navbar {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   min-height: 70px;
   margin-bottom: 30px;
   border: none;
@@ -1310,7 +1306,6 @@ r: both;
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1361,7 +1356,6 @@ hr {
 /* buttons  */
 .btn {
   font-weight: normal;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -1443,7 +1437,6 @@ label {
   border-top: solid 1px #eeeeee;
   padding-top: 20px;
   text-transform: uppercase;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 .pager li {
   display: inline;
@@ -1471,7 +1464,6 @@ label {
 /* pagination */
 .pagination {
   margin: 20px 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   border-radius: 0;
 }
 .pagination > li > a,
