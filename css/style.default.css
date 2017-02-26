@@ -273,25 +273,9 @@ h1 {
 .box .box-header:after {
   clear: both;
 }
-.box .box-footer {
-  background: #f7f7f7;
-  margin: 30px -20px -20px;
-  padding: 20px;
-  border-top: solid 1px #eeeeee;
+r: both;
 }
-.box .box-footer:before,
-.box .box-footer:after {
-  content: " ";
-  display: table;
-}
-.box .box-footer:after {
-  clear: both;
-}
-@media (max-width: 991px) {
-  .box .box-footer .btn {
-    margin-bottom: 20px;
-  }
-}
+
 .box.slideshow {
   padding: 20px 0 0 0;
   text-align: center;
