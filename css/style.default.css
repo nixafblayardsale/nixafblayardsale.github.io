@@ -1371,7 +1371,6 @@ hr {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  border-radius: 3px;
 }
 .btn-primary {
     color: #ffffff;
@@ -1411,7 +1410,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #ffffff;
 }
 .btn-lg {
-  padding: 10px 16px;
+  padding: 8px 12px;
   font-size: 18px;
   line-height: 1.33;
 }
