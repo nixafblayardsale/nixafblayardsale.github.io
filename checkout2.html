@@ -12,12 +12,14 @@
     <meta name="keywords" content="">
 
     <title>
-        Obaju : e-commerce template
+	    FBLA Yard Sale
     </title>
 
     <meta name="keywords" content="">
+	 <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
 
     <!-- styles -->
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -25,6 +27,9 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
+ 	<!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
 
     <!-- theme stylesheet -->
     <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
@@ -41,60 +46,6 @@
 </head>
 
 <body>
-    <!-- *** TOPBAR ***
- _________________________________________________________ -->
-    <div id="top">
-        <div class="container">
-            <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
-            </div>
-            <div class="col-md-6" data-animate="fadeInDown">
-                <ul class="menu">
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-                    </li>
-                    <li><a href="register.html">Register</a>
-                    </li>
-                    <li><a href="contact.html">Contact</a>
-                    </li>
-                    <li><a href="#">Recently viewed</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
-
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="Login">Customer login</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="email-modal" placeholder="email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="password-modal" placeholder="password">
-                            </div>
-
-                            <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-                            </p>
-
-                        </form>
-
-                        <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- *** TOP BAR END *** -->
 
     <!-- *** NAVBAR ***
  _________________________________________________________ -->
@@ -103,15 +54,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
-                    <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
-                    <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
-                </a>
                 <div class="navbar-buttons">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-align-justify"></i>
-                    </button>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
@@ -121,251 +64,38 @@
                     </a>
                 </div>
             </div>
+	<!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="index.html" onclick=$("#menu-close").click();>Nixa FBLA Yard Sale</a>
+            </li>
+            <li>
+                <a href="index.html" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="store.html">Shop</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
             <!--/.navbar-header -->
 
             <div class="navbar-collapse collapse" id="navigation">
-
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
-                    </li>
-                    <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Men <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="yamm-content">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <h5>Clothing</h5>
-                                            <ul>
-                                                <li><a href="category.html">T-shirts</a>
-                                                </li>
-                                                <li><a href="category.html">Shirts</a>
-                                                </li>
-                                                <li><a href="category.html">Pants</a>
-                                                </li>
-                                                <li><a href="category.html">Accessories</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Shoes</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                                <li><a href="category.html">Casual</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Accessories</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                                <li><a href="category.html">Casual</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                                <li><a href="category.html">Casual</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Featured</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                            </ul>
-                                            <h5>Looks and trends</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.yamm-content -->
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Ladies <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="yamm-content">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <h5>Clothing</h5>
-                                            <ul>
-                                                <li><a href="category.html">T-shirts</a>
-                                                </li>
-                                                <li><a href="category.html">Shirts</a>
-                                                </li>
-                                                <li><a href="category.html">Pants</a>
-                                                </li>
-                                                <li><a href="category.html">Accessories</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Shoes</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                                <li><a href="category.html">Casual</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Accessories</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                                <li><a href="category.html">Casual</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                                <li><a href="category.html">Casual</a>
-                                                </li>
-                                            </ul>
-                                            <h5>Looks and trends</h5>
-                                            <ul>
-                                                <li><a href="category.html">Trainers</a>
-                                                </li>
-                                                <li><a href="category.html">Sandals</a>
-                                                </li>
-                                                <li><a href="category.html">Hiking shoes</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="banner">
-                                                <a href="#">
-                                                    <img src="img/banner.jpg" class="img img-responsive" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="banner">
-                                                <a href="#">
-                                                    <img src="img/banner2.jpg" class="img img-responsive" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.yamm-content -->
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Template <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="yamm-content">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <h5>Shop</h5>
-                                            <ul>
-                                                <li><a href="index.html">Homepage</a>
-                                                </li>
-                                                <li><a href="category.html">Category - sidebar left</a>
-                                                </li>
-                                                <li><a href="category-right.html">Category - sidebar right</a>
-                                                </li>
-                                                <li><a href="category-full.html">Category - full width</a>
-                                                </li>
-                                                <li><a href="detail.html">Product detail</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>User</h5>
-                                            <ul>
-                                                <li><a href="register.html">Register / login</a>
-                                                </li>
-                                                <li><a href="customer-orders.html">Orders history</a>
-                                                </li>
-                                                <li><a href="customer-order.html">Order history detail</a>
-                                                </li>
-                                                <li><a href="customer-wishlist.html">Wishlist</a>
-                                                </li>
-                                                <li><a href="customer-account.html">Customer account / change password</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Order process</h5>
-                                            <ul>
-                                                <li><a href="basket.html">Shopping cart</a>
-                                                </li>
-                                                <li><a href="checkout1.html">Checkout - step 1</a>
-                                                </li>
-                                                <li><a href="checkout2.html">Checkout - step 2</a>
-                                                </li>
-                                                <li><a href="checkout3.html">Checkout - step 3</a>
-                                                </li>
-                                                <li><a href="checkout4.html">Checkout - step 4</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>Pages and blog</h5>
-                                            <ul>
-                                                <li><a href="blog.html">Blog listing</a>
-                                                </li>
-                                                <li><a href="post.html">Blog Post</a>
-                                                </li>
-                                                <li><a href="faq.html">FAQ</a>
-                                                </li>
-                                                <li><a href="text.html">Text page</a>
-                                                </li>
-                                                <li><a href="text-right.html">Text page - right sidebar</a>
-                                                </li>
-                                                <li><a href="404.html">404 page</a>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.yamm-content -->
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
-            <!--/.nav-collapse -->
-
-            <div class="navbar-buttons">
-
+		<div class="navbar-buttons">
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">1 item(s) in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -398,9 +128,9 @@
         <!-- /.container -->
     </div>
     <!-- /#navbar -->
+	</div>
 
     <!-- *** NAVBAR END *** -->
-
     <div id="all">
 
         <div id="content">
@@ -536,172 +266,43 @@
         </div>
         <!-- /#content -->
 
-        <!-- *** FOOTER ***
- _________________________________________________________ -->
-        <div id="footer" data-animate="fadeInUp">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <h4>Pages</h4>
-
-                        <ul>
-                            <li><a href="text.html">About us</a>
-                            </li>
-                            <li><a href="text.html">Terms and conditions</a>
-                            </li>
-                            <li><a href="faq.html">FAQ</a>
-                            </li>
-                            <li><a href="contact.html">Contact us</a>
-                            </li>
-                        </ul>
-
-                        <hr>
-
-                        <h4>User section</h4>
-
-                        <ul>
-                            <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-                            </li>
-                            <li><a href="register.html">Regiter</a>
-                            </li>
-                        </ul>
-
-                        <hr class="hidden-md hidden-lg hidden-sm">
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <div class="col-md-3 col-sm-6">
-
-                        <h4>Top categories</h4>
-
-                        <h5>Men</h5>
-
-                        <ul>
-                            <li><a href="category.html">T-shirts</a>
-                            </li>
-                            <li><a href="category.html">Shirts</a>
-                            </li>
-                            <li><a href="category.html">Accessories</a>
-                            </li>
-                        </ul>
-
-                        <h5>Ladies</h5>
-                        <ul>
-                            <li><a href="category.html">T-shirts</a>
-                            </li>
-                            <li><a href="category.html">Skirts</a>
-                            </li>
-                            <li><a href="category.html">Pants</a>
-                            </li>
-                            <li><a href="category.html">Accessories</a>
-                            </li>
-                        </ul>
-
-                        <hr class="hidden-md hidden-lg">
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <div class="col-md-3 col-sm-6">
-
-                        <h4>Where to find us</h4>
-
-                        <p><strong>Obaju Ltd.</strong>
-                            <br>13/25 New Avenue
-                            <br>New Heaven
-                            <br>45Y 73J
-                            <br>England
-                            <br>
-                            <strong>Great Britain</strong>
-                        </p>
-
-                        <a href="contact.html">Go to contact page</a>
-
-                        <hr class="hidden-md hidden-lg">
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-
-
-                    <div class="col-md-3 col-sm-6">
-
-                        <h4>Get the news</h4>
-
-                        <p class="text-muted">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-
-                        <form>
-                            <div class="input-group">
-
-                                <input type="text" class="form-control">
-
-                                <span class="input-group-btn">
-
-			    <button class="btn btn-default" type="button">Subscribe!</button>
-
-			</span>
-
-                            </div>
-                            <!-- /input-group -->
-                        </form>
-
-                        <hr>
-
-                        <h4>Stay in touch</h4>
-
-                        <p class="social">
-                            <a href="#" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="twitter external" data-animate-hover="shake"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="instagram external" data-animate-hover="shake"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="gplus external" data-animate-hover="shake"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="email external" data-animate-hover="shake"><i class="fa fa-envelope"></i></a>
-                        </p>
-
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#footer -->
-
-        <!-- *** FOOTER END *** -->
-
-
-
-
-        <!-- *** COPYRIGHT ***
- _________________________________________________________ -->
-        <div id="copyright">
-            <div class="container">
-                <div class="col-md-6">
-                    <p class="pull-left">© 2015 Your name goes here.</p>
-
-                </div>
-                <div class="col-md-6">
-                    <p class="pull-right">Template by <a href="https://bootstrapious.com/e-commerce-templates">Bootstrapious.com</a>
-                         <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  -->
-                    </p>
+       <footer class="special">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Nixa High School FBLA</strong>
+                    </h4>
+                    <p>514 S Nicholas Rd
+                        <br>Nixa, MO 65714</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> 417-724-3612</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jordanburns@nixaschools.net">jordanburns@nixaschools.net</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/Nixa-FBLA-406680096163211/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/nixafbla"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/fbla_pbl/"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Template by <a href="https://bootstrapious.com/e-commerce-templates">Bootstrapious.com</a></p>
+		    <p class="text-muted">Carved Eagle image found on <a href="https://www.pinterest.com/pin/174373816792626817/" target="_blank">Pintrest</a>. All other images found on Pixabay.</p>
+                    <p class="text-muted">Copyright &copy Nixa FBLA 2017</p>
                 </div>
             </div>
         </div>
-        <!-- *** COPYRIGHT END *** -->
-
-
-
-    </div>
-    <!-- /#all -->
-
-
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
     
 
-    <!-- *** SCRIPTS TO INCLUDE ***
- _________________________________________________________ -->
+    <!-- *** SCRIPTS TO INCLUDE *** -->
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.cookie.js"></script>
@@ -710,7 +311,86 @@
     <script src="js/bootstrap-hover-dropdown.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
-
+   <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+         $(document).ready(function() {
+      $('.progress .progress-bar').css("width",
+                function() {
+                    return $(this).attr("aria-valuenow") + "%";
+                }
+        )
+    });
+    </script>
 
 
 
