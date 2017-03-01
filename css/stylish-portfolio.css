@@ -311,3 +311,13 @@ img.logo {
     margin: 0 auto;
     height: 150px;
 }
+form a{ 
+	color:black;
+	outline:none; 
+	text-decoration:none;
+}
+form a:hover, form a:focus, form a:active, form a:visited {
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
