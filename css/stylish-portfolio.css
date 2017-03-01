@@ -332,3 +332,6 @@ form a:hover, form a:focus, form a:active, form a:visited {
     margin-bottom: 20px;
     border-bottom: solid 1px #428bcb;
 }
+img.logobig{
+	width:90%;
+}
