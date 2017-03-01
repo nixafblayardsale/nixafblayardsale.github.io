@@ -287,3 +287,13 @@ hr.progressbar{
 div.card{
 	margin-top:50px;
 }
+.col-md-6.form {
+    background-color: #3B7DB5;
+    padding: 50px;
+    border-radius: 15px;
+}
+button.btn.btn-primary.form-btn {
+    margin-top: 50px;
+    background-color: white;
+    color: #0B1924;
+}
