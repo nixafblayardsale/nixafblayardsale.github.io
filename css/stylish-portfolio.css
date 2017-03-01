@@ -355,6 +355,6 @@ form a.btn-primary:hover, form a.btn-primary:focus, form a.btn-primary:active, f
     outline: none;
     text-decoration: none;
 }
-contact-form-btn{
+.contact-form-btn{
 	color:black
 }
