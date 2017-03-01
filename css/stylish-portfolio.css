@@ -321,3 +321,14 @@ form a:hover, form a:focus, form a:active, form a:visited {
     outline: none;
     text-decoration: none;
 }
+.btn a, .btn a:hover, .btn a:focus, .btn a:active, .btn a:visited {
+    color: white;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #428bcb;
+}
+#content #checkout .nav {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #428bcb;
+}
