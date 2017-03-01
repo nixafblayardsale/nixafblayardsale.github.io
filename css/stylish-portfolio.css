@@ -345,3 +345,13 @@ button.btn.btn-xxl {
     margin-left: 30%;
     margin-top: 10px;
 }
+form a.btn-primary{ 
+	color:white;
+	outline:none; 
+	text-decoration:none;
+}
+form a.btn-primary:hover, form a.btn-primary:focus, form a.btn-primary:active, form a.btn-primary:visited {
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
