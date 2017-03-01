@@ -292,7 +292,7 @@ div.row{
 	padding: 50px;
    	border-radius: 15px;
 }
-button.btn.btn-primary.form-btn {
+.btn.btn-primary.form-btn {
     margin-top: 50px;
     background-color: white;
     color: #0B1924;
